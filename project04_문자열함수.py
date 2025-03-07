@@ -40,16 +40,16 @@
 # 자릿수 및 성별 코드 오류값 없도록록
 
 # 주현 주민등록번호
-=input("주민등록번호 13자리를 입력해주세요. (-포함하여 주세요)")
-raw_id = input.strip()
-# yymmdd = raw_id.split("-", [0])
-# sex_num = raw_id.split("-", [1])
-# modify_sex_num = sex_num[0]+"*"*6
-# yy = yymmdd[:2]
-# mm = yymmdd[2:4]
-# dd = yymmdd[4:6]
-# sex_num_cal = int(sex_num[0])%2
-# sex_value = str(sex_num_cal)
-# sex = sex_value.replace("0", "여자")
-# sex = sex_value.replace("1", "남자")
-# print(yy,"년", mm,"월", dd,"일", yymmdd + "-" + modify_sex_num )
+enlist = input("주민등록번호 13자리를 입력해주세요. (-포함하여 주세요)")
+raw_id = enlist.strip()
+# yymmdd = raw_id.split("-"[0])
+# sex_num = raw_id.split("-"[1])
+modify_sex_num = sex_num[0]+"*"*6
+yy = yymmdd[:2]
+mm = yymmdd[2:4]
+dd = yymmdd[4:6]
+sex_num_cal = int(sex_num[0])%2
+sex_value = str(sex_num_cal)
+sex = sex_value.replace("0", "여자")
+sex = sex_value.replace("1", "남자")
+print(yy,"년", mm,"월", dd,"일", yymmdd + "-" + modify_sex_num )
