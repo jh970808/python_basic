@@ -87,4 +87,8 @@ while menu != '5':
         print('프로그램 종료')
         sys.exit()
     else :
-        print("메뉴 선택을 잘못하셨습니다.")
+        print("메뉴 선택을 잘못하셨습니다.") 
+        
+        
+# sys.exit는 프로그램 종료, while문 밖으로만 나가고 싶다 > break
+
